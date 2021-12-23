@@ -1,0 +1,44 @@
+1. Sum, max, min and average salary of all instructors
+
+SQL> select sum(SALARY), MAX(SALARY), MIN(SALARY), AVG(SALARY) from instructor;
+
+SUM(SALARY) MAX(SALARY) MIN(SALARY) AVG(SALARY)
+----------- ----------- ----------- -----------
+     916245      104500       46200       83295
+
+
+2. Sum, max, min, average of instructors from History department
+
+SQL> select sum(SALARY), MAX(SALARY), MIN(SALARY), AVG(SALARY) from instructor where DEPT_NAME='History';
+
+SUM(SALARY) MAX(SALARY) MIN(SALARY) AVG(SALARY)
+----------- ----------- ----------- -----------
+     140910       71610       69300       70455
+
+
+3. Retrieve the total number of instructors in the institution
+
+SQL> select count(*) from instructor;
+
+  COUNT(*)
+----------
+        11
+
+
+4. Retrieve the total amount of instructors in the 'Computer Science' department
+
+SQL> select count(*) from instructor where DEPT_NAME = 'Comp. Sci.';
+
+  COUNT(*)
+----------
+         3
+
+
+5. Count the number of distinct salary values in the database
+
+SQL> select count(unique(SALARY)) from instructor;
+
+COUNT(UNIQUE(SALARY))
+---------------------
+                   11
+

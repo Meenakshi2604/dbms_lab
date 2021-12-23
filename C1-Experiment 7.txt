@@ -1,0 +1,196 @@
+1) Create a view named 'yearwise' from table section which shows the details for the course on 2009.
+
+SQL> create view yearwise as select * from section where YEAR = 2009;
+
+View created.
+
+SQL> SELECT * FROM yearwise;
+
+COURSE_I     SEC_ID SEMESTER         YEAR
+-------- ---------- ---------- ----------
+BUILDING                                           ROOM_NUMBER
+-------------------------------------------------- -----------
+BIO-101           1 Summer           2009
+Painter                                                    514
+
+CS-101            1 Fall             2009
+Packard                                                    101
+
+CS-190            1 Spring           2009
+Taylor                                                    3128
+
+
+COURSE_I     SEC_ID SEMESTER         YEAR
+-------- ---------- ---------- ----------
+BUILDING                                           ROOM_NUMBER
+-------------------------------------------------- -----------
+CS-190            2 Spring           2009
+Taylor                                                    3128
+
+CS-347            1 Fall             2009
+Taylor                                                    3128
+
+EE-181            1 Spring           2009
+Taylor                                                    3128
+
+
+6 rows selected.
+
+
+2) Create a view named 'studentlist' from table student which shows the details of students in alphabetical order.
+
+SQL> create view studentlist as select * from student order by NAME;
+
+View created.
+
+SQL> SELECT * FROM student;
+
+        ID NAME       DEPT_NAME              TOT_CRED DOB
+---------- ---------- -------------------- ---------- ---------
+       128 Zhang      Comp. Sci.                  102 24-JUL-00
+     44553 JOHN       Physics                      56 03-MAY-94
+     12345 Shankar    Comp. Sci.                   42 01-JAN-01
+     19991 Brandt     History                      80 10-JUN-02
+     23121 Chavez     Finance                     110 25-MAY-03
+     45678 Mozart     Physics                      56 27-AUG-99
+     54321 Williams   Comp. Sci.                   54 03-OCT-96
+     55739 Sanchez    Music                        48 07-FEB-95
+     76543 Brown      Comp. Sci.                   58 12-MAR-99
+     76653 Aoi        Elec. Eng.                   60 12-MAY-00
+     98765 Bourikas   Elec. Eng.                   98 09-JUN-01
+
+        ID NAME       DEPT_NAME              TOT_CRED DOB
+---------- ---------- -------------------- ---------- ---------
+     98988 Tanaka     Biology                     120 21-APR-02
+     37373 Meenakshi  History                     150 26-APR-01
+
+13 rows selected.
+
+SQL> SELECT * FROM studentlist;
+
+        ID NAME       DEPT_NAME              TOT_CRED DOB
+---------- ---------- -------------------- ---------- ---------
+     76653 Aoi        Elec. Eng.                   60 12-MAY-00
+     98765 Bourikas   Elec. Eng.                   98 09-JUN-01
+     19991 Brandt     History                      80 10-JUN-02
+     76543 Brown      Comp. Sci.                   58 12-MAR-99
+     23121 Chavez     Finance                     110 25-MAY-03
+     44553 JOHN       Physics                      56 03-MAY-94
+     37373 Meenakshi  History                     150 26-APR-01
+     45678 Mozart     Physics                      56 27-AUG-99
+     55739 Sanchez    Music                        48 07-FEB-95
+     12345 Shankar    Comp. Sci.                   42 01-JAN-01
+     98988 Tanaka     Biology                     120 21-APR-02
+
+        ID NAME       DEPT_NAME              TOT_CRED DOB
+---------- ---------- -------------------- ---------- ---------
+     54321 Williams   Comp. Sci.                   54 03-OCT-96
+       128 Zhang      Comp. Sci.                  102 24-JUL-00
+
+13 rows selected.
+
+
+3) Create a view named 'teacher' which shows the details of teachers who are not taking any class.
+
+SQL> create view teacher as select * from instructor I where I.ID not in (select T.ID from teaches T);
+
+View created.
+
+SQL> select * from teacher;
+
+        ID NAME                 DEPT_NAME      SALARY
+---------- -------------------- ---------- ----------
+     33456 Gold                 Physics         95700
+     58583 Califieri            History         71610
+
+
+4) Insert a new row into view studentlist and update the name of student as 'Saviour' to the new row.
+
+SQL> insert into studentlist values(11111, 'Aishwarya', 'History', 150, to_date('05/06/1997','dd/mm/yyyy'));
+
+1 row created.
+
+SQL> select * from studentlist;
+
+        ID NAME       DEPT_NAME              TOT_CRED DOB
+---------- ---------- -------------------- ---------- ---------
+     11111 Aishwarya  History                     150 05-JUN-97
+     76653 Aoi        Elec. Eng.                   60 12-MAY-00
+     98765 Bourikas   Elec. Eng.                   98 09-JUN-01
+     19991 Brandt     History                      80 10-JUN-02
+     76543 Brown      Comp. Sci.                   58 12-MAR-99
+     23121 Chavez     Finance                     110 25-MAY-03
+     44553 JOHN       Physics                      56 03-MAY-94
+     37373 Meenakshi  History                     150 26-APR-01
+     45678 Mozart     Physics                      56 27-AUG-99
+     55739 Sanchez    Music                        48 07-FEB-95
+     12345 Shankar    Comp. Sci.                   42 01-JAN-01
+
+        ID NAME       DEPT_NAME              TOT_CRED DOB
+---------- ---------- -------------------- ---------- ---------
+     98988 Tanaka     Biology                     120 21-APR-02
+     54321 Williams   Comp. Sci.                   54 03-OCT-96
+       128 Zhang      Comp. Sci.                  102 24-JUL-00
+
+14 rows selected.
+
+SQL> update studentlist set NAME = 'Saviour' where ID=11111;
+
+1 row updated.
+
+SQL> select * from studentlist WHERE id=11111;
+
+        ID NAME       DEPT_NAME              TOT_CRED DOB
+---------- ---------- -------------------- ---------- ---------
+     11111 Saviour    History                     150 05-JUN-97
+
+
+
+5) Delete a new row added to the view studentlist.
+
+SQL> delete from studentlist where ID=11111;
+
+1 row deleted.
+
+SQL> select * from studentlist;
+
+        ID NAME       DEPT_NAME              TOT_CRED DOB
+---------- ---------- -------------------- ---------- ---------
+     76653 Aoi        Elec. Eng.                   60 12-MAY-00
+     98765 Bourikas   Elec. Eng.                   98 09-JUN-01
+     19991 Brandt     History                      80 10-JUN-02
+     76543 Brown      Comp. Sci.                   58 12-MAR-99
+     23121 Chavez     Finance                     110 25-MAY-03
+     44553 JOHN       Physics                      56 03-MAY-94
+     37373 Meenakshi  History                     150 26-APR-01
+     45678 Mozart     Physics                      56 27-AUG-99
+     55739 Sanchez    Music                        48 07-FEB-95
+     12345 Shankar    Comp. Sci.                   42 01-JAN-01
+     98988 Tanaka     Biology                     120 21-APR-02
+
+        ID NAME       DEPT_NAME              TOT_CRED DOB
+---------- ---------- -------------------- ---------- ---------
+     54321 Williams   Comp. Sci.                   54 03-OCT-96
+       128 Zhang      Comp. Sci.                  102 24-JUL-00
+
+13 rows selected.
+
+
+6) Drop all the views created.
+
+SQL> drop view yearwise;
+
+View dropped.
+
+SQL> drop view studentlist;
+
+View dropped.
+
+SQL> drop view teacher;
+
+View dropped.
+
+
+
+
+

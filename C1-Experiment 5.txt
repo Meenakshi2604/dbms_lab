@@ -1,0 +1,103 @@
+1) Change the name of the student with ID= 44553 as 'John'.
+
+SQL> update student set NAME='JOHN' where ID=44553;
+
+1 row updated.
+
+SQL> select * from student where ID=44553;
+
+        ID NAME       DEPT_NAME              TOT_CRED DOB
+---------- ---------- -------------------- ---------- ---------
+     44553 JOHN       Physics                      56 03-MAY-94
+
+
+2) Commit all the operations.
+
+SQL> commit;
+
+Commit complete.
+
+
+3) Change the name of the student with ID=44553 as 'Peltier'.
+
+SQL> update student set NAME='Peltier' where ID=44553;
+
+1 row updated.
+
+SQL> select * from student where ID=44553;
+
+        ID NAME       DEPT_NAME              TOT_CRED DOB
+---------- ---------- -------------------- ---------- ---------
+     44553 Peltier    Physics                      56 03-MAY-94
+
+
+4) Rollback all the operations.
+
+SQL> ROLLBACK;
+
+Rollback complete.
+
+SQL> select * from student where ID=44553;
+
+        ID NAME       DEPT_NAME              TOT_CRED DOB
+---------- ---------- -------------------- ---------- ---------
+     44553 JOHN       Physics                      56 03-MAY-94
+
+
+5)Insert a new row into the student table and make 3 updates to the new row and after two updates set savepoints.
+
+SQL> insert into student values(37373,'Mnakshi','History', 150, to_date('26/04/2001','dd/mm/yyyy'));
+
+1 row created.
+
+SQL> update student set NAME = 'Meenakshi' where ID=37373;
+
+1 row updated.
+
+SQL> SAVEPOINT meenu_name;
+
+Savepoint created.
+
+SQL> update student set DEPT_NAME='Comp. Sci.' where ID=37373;
+
+1 row updated.
+
+SQL> SAVEPOINT meenu_dept;
+
+Savepoint created.
+
+SQL> update student set TOT_CRED= 160 where ID=37373;
+
+1 row updated.
+
+SQL> select * from student where ID=37373;
+
+        ID NAME       DEPT_NAME              TOT_CRED DOB
+---------- ---------- -------------------- ---------- ---------
+     37373 Meenakshi  Comp. Sci.                  160 26-APR-01
+
+6) Rollback to each savepoint.
+
+SQL> ROLLBACK TO SAVEPOINT meenu_dept;
+
+Rollback complete.
+
+SQL> select * from student where ID = 37373;
+
+        ID NAME       DEPT_NAME              TOT_CRED DOB
+---------- ---------- -------------------- ---------- ---------
+     37373 Meenakshi  Comp. Sci.                  150 26-APR-01
+
+SQL> ROLLBACK TO SAVEPOINT meenu_name;
+
+Rollback complete.
+
+SQL> select * from student where ID = 37373;
+
+        ID NAME       DEPT_NAME              TOT_CRED DOB
+---------- ---------- -------------------- ---------- ---------
+     37373 Meenakshi  History                     150 26-APR-01
+
+
+
+

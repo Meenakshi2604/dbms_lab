@@ -1,0 +1,269 @@
+1. Creating table
+
+create table classroom( BUILDNG VARCHAR(10), ROOM_NUMBER NUMBER(38), CAPACITY NUMBER(38), PRIMARY KEY(ROOM_NUMBER));
+
+OUTPUT
+
+ describe classroom
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ BUILDNG                                            VARCHAR2(50)
+ ROOM_NUMBER                               NOT NULL NUMBER(38)
+ CAPACITY                                           NUMBER(38)
+
+
+create table department( DEPT_NAME VARCHAR2(20), BUILDING VARCHAR2(20), BUDGET NUMBER(38), PRIMARY KEY(DEPT_NAME));
+
+OUTPUT
+
+  describe department
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ DEPT_NAME                                 NOT NULL VARCHAR2(20)
+ BUILDING                                           VARCHAR2(50)
+ BUDGET                                             NUMBER(38)
+
+create table course( COURSE_ID CHAR(8), TITLE VARCHAR2(30), DEPT_NAME VARCHAR2(20), CREDITS NUMBER(38), PRIMARY KEY(COURSE_ID), FOREIGN KEY(DEPT_NAME) REFERENCES department(DEPT_NAME));
+
+OUTPUT
+
+ describe course
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ COURSE_ID                                 NOT NULL CHAR(8)
+ TITLE                                              VARCHAR2(30)
+ DEPT_NAME                                          VARCHAR2(20)
+ CREDITS                                            NUMBER(38)
+
+create table instructor(ID NUMBER(38), NAME VARCHAR2(20), DEPT_NAME VARCHAR2(10), SALARY NUMBER(38), PRIMARY KEY(ID), FOREIGN KEY(DEPT_NAME) REFERENCES department(DEPT_NAME));
+
+OUTPUT
+
+ describe instructor
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ ID                                        NOT NULL NUMBER(38)
+ NAME                                               VARCHAR2(20)
+ DEPT_NAME                                          VARCHAR2(10)
+ SALARY                                             NUMBER(38)
+
+create table student(ID NUMBER(38), NAME VARCHAR2(10) NOT NULL, DEPT_NAME VARCHAR(20), TOT_CRED NUMBER(38), PRIMARY KEY(ID), FOREIGN KEY(DEPT_NAME) REFERENCES department(DEPT_NAME));
+
+OUTPUT
+
+  describe student
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ ID                                        NOT NULL NUMBER(38)
+ NAME                                      NOT NULL VARCHAR2(10)
+ DEPT_NAME                                          VARCHAR2(20)
+ TOT_CRED                                           NUMBER(38)
+
+create table section( COURSE_ID CHAR(8), SEC_ID NUMBER(38), SEMESTER VARCHAR(10), YEAR NUMBER(38), BUILDING VARCHAR(50), ROOM_NUMBER NUMBER(38), FOREIGN KEY(COURSE_ID) REFERENCES course(COURSE_ID));
+
+OUTPUT
+
+ describe section
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ COURSE_ID                                          CHAR(8)
+ SEC_ID                                             NUMBER(38)
+ SEMESTER                                           VARCHAR2(10)
+ YEAR                                               NUMBER(38)
+ BUILDING                                           VARCHAR2(50)
+ ROOM_NUMBER                                        NUMBER(38)
+
+ create table teaches(ID NUMBER(38), COURSE_ID CHAR(8), SEC_ID NUMBER(38), SEMESTER CHAR(10), YEAR NUMBER(38), FOREIGN KEY(COURSE_ID) REFERENCES course(COURSE_ID));
+
+OUTPUT
+
+ DESCRIBE teaches
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ ID                                                 NUMBER(38)
+ COURSE_ID                                          CHAR(8)
+ SEC_ID                                             NUMBER(38)
+ SEMESTER                                           CHAR(10)
+ YEAR                                               NUMBER(38)
+
+
+create table takes(ID NUMBER(38), COURSE_ID CHAR(8), SEC_ID NUMBER(38), SEMESTER CHAR(10), YEAR NUMBER(38), GRADE CHAR(5), FOREIGN KEY(COURSE_ID) REFERENCES course(COURSE_ID));
+
+  describe takes
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ ID                                                 NUMBER(38)
+ COURSE_ID                                          CHAR(8)
+ SEC_ID                                             NUMBER(38)
+ SEMESTER                                           CHAR(10)
+ YEAR                                               NUMBER(38)
+ GRADE                                              CHAR(5)
+
+2. Alter tables
+
+a) alter table course modify COURSE_ID CHAR(10);
+
+SQL> describe course
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ COURSE_ID                                 NOT NULL CHAR(10)
+ TITLE                                              VARCHAR2(30)
+ DEPT_NAME                                          VARCHAR2(20)
+ CREDITS                                            VARCHAR2(10)
+
+
+b) alter table department add DEPT_NO NUMBER(38);
+
+Table altered.
+
+SQL> describe department
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ DEPT_NAME                                 NOT NULL VARCHAR2(20)
+ BUILDING                                           VARCHAR2(20)
+ BUDGET                                             NUMBER(38)
+ DEPT_NO                                            NUMBER(38)
+
+c) alter table student modify NAME VARCHAR(20);
+
+Table altered.
+
+SQL> describe student
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ ID                                        NOT NULL NUMBER(38)
+ NAME                                      NOT NULL VARCHAR2(20)
+ DEPT_NAME                                          VARCHAR2(20)
+ TOT_CRED                                           NUMBER(38)
+
+d)  alter table classroom modify CAPACITY int default 50;
+
+Table altered.
+
+SQL> describe classroom
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ BUILDNG                                            VARCHAR2(10)
+ ROOM_NUMBER                               NOT NULL NUMBER(38)
+ CAPACITY                                           NUMBER(38)
+
+e) alter table instructor add constraint SALARY_GT_ZERO check(SALARY>50000);
+
+Table altered.
+
+SQL> describe instructor
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ ID                                        NOT NULL NUMBER(38)
+ NAME                                               VARCHAR2(20)
+ DEPT_NAME                                          VARCHAR2(10)
+ SALARY                                             NUMBER(38)
+
+3. Alter Tables back to original tables
+
+a) alter table course modify COURSE_ID CHAR(8);
+
+Table altered.
+
+SQL> describe course
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ COURSE_ID                                 NOT NULL CHAR(8)
+ TITLE                                              VARCHAR2(30)
+ DEPT_NAME                                          VARCHAR2(20)
+ CREDITS                                            VARCHAR2(10)
+
+b) alter table department drop column DEPT_NO;
+
+Table altered.
+
+SQL> describe department
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ DEPT_NAME                                 NOT NULL VARCHAR2(20)
+ BUILDING                                           VARCHAR2(20)
+ BUDGET                                             NUMBER(38)
+
+c) alter table student modify NAME VARCHAR(20);
+
+Table altered.
+
+SQL> describe student
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ ID                                        NOT NULL NUMBER(38)
+ NAME                                      NOT NULL VARCHAR2(20)
+ DEPT_NAME                                          VARCHAR2(20)
+ TOT_CRED                                           NUMBER(38)
+
+d) alter table classroom modify CAPACITY DEFAULT NULL;
+
+Table altered.
+
+SQL> describe classroom
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ BUILDNG                                            VARCHAR2(10)
+ ROOM_NUMBER                               NOT NULL NUMBER(38)
+ CAPACITY                                           NUMBER(38)
+
+e) alter table instructor drop constraints SALARY_GT_ZERO;
+
+Table altered.
+
+SQL> describe instructor
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ ID                                        NOT NULL NUMBER(38)
+ NAME                                               VARCHAR2(20)
+ DEPT_NAME                                          VARCHAR2(10)
+ SALARY                                             NUMBER(38)
+
+4) Renaming the table
+
+ alter table takes rename to subject;
+
+Table altered.
+
+SQL> describe takes
+ERROR:
+ORA-04043: object takes does not exist
+
+
+SQL> describe subject
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ ID                                                 NUMBER(38)
+ COURSE_ID                                          CHAR(8)
+ SEC_ID                                             NUMBER(38)
+ SEMESTER                                           CHAR(10)
+ YEAR                                               NUMBER(38)
+ GRADE                                              VARCHAR2(5)
+
+SQL> alter table subject rename to takes;
+
+Table altered.
+
+SQL> describe takes
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ ID                                                 NUMBER(38)
+ COURSE_ID                                          CHAR(8)
+ SEC_ID                                             NUMBER(38)
+ SEMESTER                                           CHAR(10)
+ YEAR                                               NUMBER(38)
+ GRADE                                              VARCHAR2(5)
+
+
+ alter table student add DOB DATE;
+
+Table altered.
+
+SQL> DESCRIBE student
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ ID                                        NOT NULL NUMBER(38)
+ NAME                                      NOT NULL VARCHAR2(10)
+ DEPT_NAME                                          VARCHAR2(20)
+ TOT_CRED                                           NUMBER(38)
+ DOB                                                DATE

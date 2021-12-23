@@ -1,0 +1,109 @@
+1) Evaluate the following built-in functions
+	a) cos(absolute(-10))*e^2), print the rounded value.
+	b) log10(sqrt((5^4)%14)), print the rounded value.
+	c) sin(30) + tan(60), also print the sign of the result
+
+a) SQL> select ROUND(COS(ABS(-10))*EXP(2),2) from dual;
+
+ROUND(COS(ABS(-10))*EXP(2),2)
+-----------------------------
+                         -6.2
+
+b) SQL> select ROUND(LOG(SQRT(MOD(POWER(5,4), 14)),10),2) FROM dual;
+
+ROUND(LOG(SQRT(MOD(POWER(5,4),14)),10),2)
+-----------------------------------------
+                                      2.1
+c) SELECT SIGN(sin(30* 3.14/180) + tan(60* 3.14/180)) from dual;
+
+SIGN(SIN(30*3.14/180)+TAN(60*3.14/180))
+---------------------------------------
+                                      1
+
+2) Find the greatest preceding or the least succeeding interger of 12.9.
+
+SQL> select floor(12.9) from dual;
+
+FLOOR(12.9)
+-----------
+         12
+
+SQL> select ceil(12.9) from dual;
+
+CEIL(12.9)
+----------
+        13
+
+3) Display NAME of Instructor as uppercase, lowercase letters and also shows the first letter in capital in separate columns.
+
+SQL> select upper(I.NAME), lower(I.NAME), initcap(I.NAME) from instructor I;
+
+UPPER(I.NAME)        LOWER(I.NAME)        INITCAP(I.NAME)
+-------------------- -------------------- --------------------
+SRINIVASAN           srinivasan           Srinivasan
+WU                   wu                   Wu
+MOZART               mozart               Mozart
+EINSTEIN             einstein             Einstein
+AL SAID              al said              Al Said
+GOLD                 gold                 Gold
+KATZ                 katz                 Katz
+CALIFIERI            califieri            Califieri
+CRICK                crick                Crick
+BRANDT               brandt               Brandt
+KIM                  kim                  Kim
+
+11 rows selected.
+
+
+4) Replace the '-' in COURSE_ID with '/' and display it as new column.
+
+SQL> select replace(C.COURSE_ID, '-', '/') from course C;
+
+REPLACE(
+--------
+BIO/101
+BIO/301
+CS/101
+CS/190
+CS/315
+CS/319
+CS/347
+EE/181
+FIN/201
+HIS/351
+MU/199
+
+REPLACE(
+--------
+PHY/101
+
+12 rows selected.
+
+
+5. Display the name of the instructor with department name as full name.
+
+SQL> select concat(concat(NAME, ' ' ), DEPT_NAME) from instructor;
+
+CONCAT(CONCAT(NAME,''),DEPT_NAM
+-------------------------------
+Srinivasan Comp. Sci.
+Wu Finance
+Mozart Music
+Einstein Physics
+Al Said History
+Gold Physics
+Katz Comp. Sci.
+Califieri History
+Crick Biology
+Brandt Comp. Sci.
+Kim Elec. Eng.
+
+11 rows selected.
+
+
+6. Display the last 3 digits of the course_id
+
+SQL> select substr(COURSE_ID,-3) from course;
+
+
+

@@ -1,0 +1,907 @@
+1. Give select permission to all the users for a table that you have created already
+
+SQL> select 'GRANT SELECT ON teaches TO '||USERNAME||' ;' FROM ALL_USERS;
+
+'GRANTSELECTONTEACHESTO'||USERNAME||';'
+-----------------------------------------------------------
+GRANT SELECT ON teaches TO EXAM81 ;
+GRANT SELECT ON teaches TO EXAM79 ;
+GRANT SELECT ON teaches TO EXAM78 ;
+GRANT SELECT ON teaches TO EXAM77 ;
+GRANT SELECT ON teaches TO EXAM76 ;
+GRANT SELECT ON teaches TO EXAM75 ;
+GRANT SELECT ON teaches TO EXAM74 ;
+GRANT SELECT ON teaches TO EXAM73 ;
+GRANT SELECT ON teaches TO EXAM72 ;
+GRANT SELECT ON teaches TO EXAM71 ;
+GRANT SELECT ON teaches TO EXAM70 ;
+
+'GRANTSELECTONTEACHESTO'||USERNAME||';'
+-----------------------------------------------------------
+GRANT SELECT ON teaches TO EXAM69 ;
+GRANT SELECT ON teaches TO EXAM68 ;
+GRANT SELECT ON teaches TO EXAM67 ;
+GRANT SELECT ON teaches TO EXAM66 ;
+GRANT SELECT ON teaches TO EXAM65 ;
+GRANT SELECT ON teaches TO EXAM64 ;
+GRANT SELECT ON teaches TO EXAM63 ;
+GRANT SELECT ON teaches TO EXAM62 ;
+GRANT SELECT ON teaches TO EXAM61 ;
+GRANT SELECT ON teaches TO EXAM60 ;
+GRANT SELECT ON teaches TO EXAM80 ;
+
+'GRANTSELECTONTEACHESTO'||USERNAME||';'
+-----------------------------------------------------------
+GRANT SELECT ON teaches TO EXAM58 ;
+GRANT SELECT ON teaches TO EXAM57 ;
+GRANT SELECT ON teaches TO EXAM56 ;
+GRANT SELECT ON teaches TO EXAM55 ;
+GRANT SELECT ON teaches TO EXAM54 ;
+GRANT SELECT ON teaches TO EXAM53 ;
+GRANT SELECT ON teaches TO EXAM52 ;
+GRANT SELECT ON teaches TO EXAM51 ;
+GRANT SELECT ON teaches TO EXAM50 ;
+GRANT SELECT ON teaches TO EXAM49 ;
+GRANT SELECT ON teaches TO EXAM48 ;
+
+'GRANTSELECTONTEACHESTO'||USERNAME||';'
+-----------------------------------------------------------
+GRANT SELECT ON teaches TO EXAM47 ;
+GRANT SELECT ON teaches TO EXAM46 ;
+GRANT SELECT ON teaches TO EXAM45 ;
+GRANT SELECT ON teaches TO EXAM44 ;
+GRANT SELECT ON teaches TO EXAM43 ;
+GRANT SELECT ON teaches TO EXAM42 ;
+GRANT SELECT ON teaches TO EXAM41 ;
+GRANT SELECT ON teaches TO EXAM40 ;
+GRANT SELECT ON teaches TO EXAM39 ;
+GRANT SELECT ON teaches TO EXAM59 ;
+GRANT SELECT ON teaches TO EXAM37 ;
+
+'GRANTSELECTONTEACHESTO'||USERNAME||';'
+-----------------------------------------------------------
+GRANT SELECT ON teaches TO EXAM36 ;
+GRANT SELECT ON teaches TO EXAM35 ;
+GRANT SELECT ON teaches TO EXAM34 ;
+GRANT SELECT ON teaches TO EXAM33 ;
+GRANT SELECT ON teaches TO EXAM32 ;
+GRANT SELECT ON teaches TO EXAM31 ;
+GRANT SELECT ON teaches TO EXAM30 ;
+GRANT SELECT ON teaches TO EXAM29 ;
+GRANT SELECT ON teaches TO EXAM28 ;
+GRANT SELECT ON teaches TO EXAM27 ;
+GRANT SELECT ON teaches TO EXAM26 ;
+
+'GRANTSELECTONTEACHESTO'||USERNAME||';'
+-----------------------------------------------------------
+GRANT SELECT ON teaches TO EXAM25 ;
+GRANT SELECT ON teaches TO EXAM24 ;
+GRANT SELECT ON teaches TO EXAM23 ;
+GRANT SELECT ON teaches TO EXAM22 ;
+GRANT SELECT ON teaches TO EXAM21 ;
+GRANT SELECT ON teaches TO EXAM20 ;
+GRANT SELECT ON teaches TO EXAM19 ;
+GRANT SELECT ON teaches TO EXAM18 ;
+GRANT SELECT ON teaches TO EXAM38 ;
+GRANT SELECT ON teaches TO EXAM16 ;
+GRANT SELECT ON teaches TO EXAM15 ;
+
+'GRANTSELECTONTEACHESTO'||USERNAME||';'
+-----------------------------------------------------------
+GRANT SELECT ON teaches TO EXAM14 ;
+GRANT SELECT ON teaches TO EXAM13 ;
+GRANT SELECT ON teaches TO EXAM12 ;
+GRANT SELECT ON teaches TO EXAM11 ;
+GRANT SELECT ON teaches TO EXAM10 ;
+GRANT SELECT ON teaches TO EXAM09 ;
+GRANT SELECT ON teaches TO EXAM08 ;
+GRANT SELECT ON teaches TO EXAM07 ;
+GRANT SELECT ON teaches TO EXAM06 ;
+GRANT SELECT ON teaches TO EXAM05 ;
+GRANT SELECT ON teaches TO EXAM04 ;
+
+'GRANTSELECTONTEACHESTO'||USERNAME||';'
+-----------------------------------------------------------
+GRANT SELECT ON teaches TO EXAM03 ;
+GRANT SELECT ON teaches TO EXAM02 ;
+GRANT SELECT ON teaches TO EXAM01 ;
+GRANT SELECT ON teaches TO R505 ;
+GRANT SELECT ON teaches TO R516 ;
+GRANT SELECT ON teaches TO R515 ;
+GRANT SELECT ON teaches TO R581 ;
+GRANT SELECT ON teaches TO EXAM17 ;
+GRANT SELECT ON teaches TO R579 ;
+GRANT SELECT ON teaches TO R578 ;
+GRANT SELECT ON teaches TO R577 ;
+
+'GRANTSELECTONTEACHESTO'||USERNAME||';'
+-----------------------------------------------------------
+GRANT SELECT ON teaches TO R576 ;
+GRANT SELECT ON teaches TO R575 ;
+GRANT SELECT ON teaches TO R574 ;
+GRANT SELECT ON teaches TO R573 ;
+GRANT SELECT ON teaches TO R572 ;
+GRANT SELECT ON teaches TO R571 ;
+GRANT SELECT ON teaches TO R570 ;
+GRANT SELECT ON teaches TO R569 ;
+GRANT SELECT ON teaches TO R568 ;
+GRANT SELECT ON teaches TO R567 ;
+GRANT SELECT ON teaches TO R566 ;
+
+'GRANTSELECTONTEACHESTO'||USERNAME||';'
+-----------------------------------------------------------
+GRANT SELECT ON teaches TO R565 ;
+GRANT SELECT ON teaches TO R564 ;
+GRANT SELECT ON teaches TO R563 ;
+GRANT SELECT ON teaches TO R562 ;
+GRANT SELECT ON teaches TO R561 ;
+GRANT SELECT ON teaches TO R560 ;
+GRANT SELECT ON teaches TO R580 ;
+GRANT SELECT ON teaches TO R558 ;
+GRANT SELECT ON teaches TO R557 ;
+GRANT SELECT ON teaches TO R556 ;
+GRANT SELECT ON teaches TO R555 ;
+
+'GRANTSELECTONTEACHESTO'||USERNAME||';'
+-----------------------------------------------------------
+GRANT SELECT ON teaches TO R554 ;
+GRANT SELECT ON teaches TO R553 ;
+GRANT SELECT ON teaches TO R552 ;
+GRANT SELECT ON teaches TO R551 ;
+GRANT SELECT ON teaches TO R550 ;
+GRANT SELECT ON teaches TO R549 ;
+GRANT SELECT ON teaches TO R548 ;
+GRANT SELECT ON teaches TO R547 ;
+GRANT SELECT ON teaches TO R546 ;
+GRANT SELECT ON teaches TO R545 ;
+GRANT SELECT ON teaches TO R544 ;
+
+'GRANTSELECTONTEACHESTO'||USERNAME||';'
+-----------------------------------------------------------
+GRANT SELECT ON teaches TO R543 ;
+GRANT SELECT ON teaches TO R542 ;
+GRANT SELECT ON teaches TO R541 ;
+GRANT SELECT ON teaches TO R540 ;
+GRANT SELECT ON teaches TO R539 ;
+GRANT SELECT ON teaches TO R559 ;
+GRANT SELECT ON teaches TO R537 ;
+GRANT SELECT ON teaches TO R536 ;
+GRANT SELECT ON teaches TO R535 ;
+GRANT SELECT ON teaches TO R534 ;
+GRANT SELECT ON teaches TO R533 ;
+
+'GRANTSELECTONTEACHESTO'||USERNAME||';'
+-----------------------------------------------------------
+GRANT SELECT ON teaches TO R532 ;
+GRANT SELECT ON teaches TO R531 ;
+GRANT SELECT ON teaches TO R530 ;
+GRANT SELECT ON teaches TO R529 ;
+GRANT SELECT ON teaches TO R528 ;
+GRANT SELECT ON teaches TO R527 ;
+GRANT SELECT ON teaches TO R526 ;
+GRANT SELECT ON teaches TO R525 ;
+GRANT SELECT ON teaches TO R524 ;
+GRANT SELECT ON teaches TO R523 ;
+GRANT SELECT ON teaches TO R522 ;
+
+'GRANTSELECTONTEACHESTO'||USERNAME||';'
+-----------------------------------------------------------
+GRANT SELECT ON teaches TO R521 ;
+GRANT SELECT ON teaches TO R520 ;
+GRANT SELECT ON teaches TO R519 ;
+GRANT SELECT ON teaches TO R518 ;
+GRANT SELECT ON teaches TO R538 ;
+GRANT SELECT ON teaches TO R514 ;
+GRANT SELECT ON teaches TO R513 ;
+GRANT SELECT ON teaches TO R512 ;
+GRANT SELECT ON teaches TO R511 ;
+GRANT SELECT ON teaches TO R510 ;
+GRANT SELECT ON teaches TO R509 ;
+
+'GRANTSELECTONTEACHESTO'||USERNAME||';'
+-----------------------------------------------------------
+GRANT SELECT ON teaches TO R508 ;
+GRANT SELECT ON teaches TO R507 ;
+GRANT SELECT ON teaches TO R506 ;
+GRANT SELECT ON teaches TO R504 ;
+GRANT SELECT ON teaches TO R503 ;
+GRANT SELECT ON teaches TO R502 ;
+GRANT SELECT ON teaches TO R205 ;
+GRANT SELECT ON teaches TO R501 ;
+GRANT SELECT ON teaches TO ANVER ;
+GRANT SELECT ON teaches TO SCOTT ;
+GRANT SELECT ON teaches TO OWBSYS_AUDIT ;
+
+'GRANTSELECTONTEACHESTO'||USERNAME||';'
+-----------------------------------------------------------
+GRANT SELECT ON teaches TO R517 ;
+GRANT SELECT ON teaches TO OWBSYS ;
+GRANT SELECT ON teaches TO APEX_030200 ;
+GRANT SELECT ON teaches TO APEX_PUBLIC_USER ;
+GRANT SELECT ON teaches TO FLOWS_FILES ;
+GRANT SELECT ON teaches TO MGMT_VIEW ;
+GRANT SELECT ON teaches TO SYSMAN ;
+GRANT SELECT ON teaches TO SPATIAL_CSW_ADMIN_USR ;
+GRANT SELECT ON teaches TO SPATIAL_WFS_ADMIN_USR ;
+GRANT SELECT ON teaches TO MDDATA ;
+GRANT SELECT ON teaches TO MDSYS ;
+
+'GRANTSELECTONTEACHESTO'||USERNAME||';'
+-----------------------------------------------------------
+GRANT SELECT ON teaches TO SI_INFORMTN_SCHEMA ;
+GRANT SELECT ON teaches TO ORDPLUGINS ;
+GRANT SELECT ON teaches TO ORDDATA ;
+GRANT SELECT ON teaches TO ORDSYS ;
+GRANT SELECT ON teaches TO OLAPSYS ;
+GRANT SELECT ON teaches TO ANONYMOUS ;
+GRANT SELECT ON teaches TO XDB ;
+GRANT SELECT ON teaches TO CTXSYS ;
+GRANT SELECT ON teaches TO EXFSYS ;
+GRANT SELECT ON teaches TO XS$NULL ;
+GRANT SELECT ON teaches TO WMSYS ;
+
+'GRANTSELECTONTEACHESTO'||USERNAME||';'
+-----------------------------------------------------------
+GRANT SELECT ON teaches TO APPQOSSYS ;
+GRANT SELECT ON teaches TO DBSNMP ;
+GRANT SELECT ON teaches TO ORACLE_OCM ;
+GRANT SELECT ON teaches TO DIP ;
+GRANT SELECT ON teaches TO OUTLN ;
+GRANT SELECT ON teaches TO SYSTEM ;
+GRANT SELECT ON teaches TO SYS ;
+
+194 rows selected.
+
+
+2. Give all permission to all users for a table that you have created already
+
+SQL> SELECT 'GRANT ALL PRIVILAGES ON TAKES TO '||USERNAME||' ;' FROM ALL_USERS;
+
+'GRANTALLPRIVILAGESONTAKESTO'||USERNAME||';'
+-----------------------------------------------------------------
+GRANT ALL PRIVILAGES ON TAKES TO EXAM81 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM79 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM78 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM77 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM76 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM75 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM74 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM73 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM72 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM71 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM70 ;
+
+'GRANTALLPRIVILAGESONTAKESTO'||USERNAME||';'
+-----------------------------------------------------------------
+GRANT ALL PRIVILAGES ON TAKES TO EXAM69 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM68 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM67 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM66 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM65 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM64 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM63 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM62 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM61 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM60 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM80 ;
+
+'GRANTALLPRIVILAGESONTAKESTO'||USERNAME||';'
+-----------------------------------------------------------------
+GRANT ALL PRIVILAGES ON TAKES TO EXAM58 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM57 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM56 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM55 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM54 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM53 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM52 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM51 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM50 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM49 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM48 ;
+
+'GRANTALLPRIVILAGESONTAKESTO'||USERNAME||';'
+-----------------------------------------------------------------
+GRANT ALL PRIVILAGES ON TAKES TO EXAM47 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM46 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM45 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM44 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM43 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM42 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM41 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM40 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM39 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM59 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM37 ;
+
+'GRANTALLPRIVILAGESONTAKESTO'||USERNAME||';'
+-----------------------------------------------------------------
+GRANT ALL PRIVILAGES ON TAKES TO EXAM36 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM35 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM34 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM33 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM32 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM31 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM30 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM29 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM28 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM27 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM26 ;
+
+'GRANTALLPRIVILAGESONTAKESTO'||USERNAME||';'
+-----------------------------------------------------------------
+GRANT ALL PRIVILAGES ON TAKES TO EXAM25 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM24 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM23 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM22 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM21 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM20 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM19 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM18 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM38 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM16 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM15 ;
+
+'GRANTALLPRIVILAGESONTAKESTO'||USERNAME||';'
+-----------------------------------------------------------------
+GRANT ALL PRIVILAGES ON TAKES TO EXAM14 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM13 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM12 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM11 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM10 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM09 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM08 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM07 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM06 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM05 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM04 ;
+
+'GRANTALLPRIVILAGESONTAKESTO'||USERNAME||';'
+-----------------------------------------------------------------
+GRANT ALL PRIVILAGES ON TAKES TO EXAM03 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM02 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM01 ;
+GRANT ALL PRIVILAGES ON TAKES TO R505 ;
+GRANT ALL PRIVILAGES ON TAKES TO R516 ;
+GRANT ALL PRIVILAGES ON TAKES TO R515 ;
+GRANT ALL PRIVILAGES ON TAKES TO R581 ;
+GRANT ALL PRIVILAGES ON TAKES TO EXAM17 ;
+GRANT ALL PRIVILAGES ON TAKES TO R579 ;
+GRANT ALL PRIVILAGES ON TAKES TO R578 ;
+GRANT ALL PRIVILAGES ON TAKES TO R577 ;
+
+'GRANTALLPRIVILAGESONTAKESTO'||USERNAME||';'
+-----------------------------------------------------------------
+GRANT ALL PRIVILAGES ON TAKES TO R576 ;
+GRANT ALL PRIVILAGES ON TAKES TO R575 ;
+GRANT ALL PRIVILAGES ON TAKES TO R574 ;
+GRANT ALL PRIVILAGES ON TAKES TO R573 ;
+GRANT ALL PRIVILAGES ON TAKES TO R572 ;
+GRANT ALL PRIVILAGES ON TAKES TO R571 ;
+GRANT ALL PRIVILAGES ON TAKES TO R570 ;
+GRANT ALL PRIVILAGES ON TAKES TO R569 ;
+GRANT ALL PRIVILAGES ON TAKES TO R568 ;
+GRANT ALL PRIVILAGES ON TAKES TO R567 ;
+GRANT ALL PRIVILAGES ON TAKES TO R566 ;
+
+'GRANTALLPRIVILAGESONTAKESTO'||USERNAME||';'
+-----------------------------------------------------------------
+GRANT ALL PRIVILAGES ON TAKES TO R565 ;
+GRANT ALL PRIVILAGES ON TAKES TO R564 ;
+GRANT ALL PRIVILAGES ON TAKES TO R563 ;
+GRANT ALL PRIVILAGES ON TAKES TO R562 ;
+GRANT ALL PRIVILAGES ON TAKES TO R561 ;
+GRANT ALL PRIVILAGES ON TAKES TO R560 ;
+GRANT ALL PRIVILAGES ON TAKES TO R580 ;
+GRANT ALL PRIVILAGES ON TAKES TO R558 ;
+GRANT ALL PRIVILAGES ON TAKES TO R557 ;
+GRANT ALL PRIVILAGES ON TAKES TO R556 ;
+GRANT ALL PRIVILAGES ON TAKES TO R555 ;
+
+'GRANTALLPRIVILAGESONTAKESTO'||USERNAME||';'
+-----------------------------------------------------------------
+GRANT ALL PRIVILAGES ON TAKES TO R554 ;
+GRANT ALL PRIVILAGES ON TAKES TO R553 ;
+GRANT ALL PRIVILAGES ON TAKES TO R552 ;
+GRANT ALL PRIVILAGES ON TAKES TO R551 ;
+GRANT ALL PRIVILAGES ON TAKES TO R550 ;
+GRANT ALL PRIVILAGES ON TAKES TO R549 ;
+GRANT ALL PRIVILAGES ON TAKES TO R548 ;
+GRANT ALL PRIVILAGES ON TAKES TO R547 ;
+GRANT ALL PRIVILAGES ON TAKES TO R546 ;
+GRANT ALL PRIVILAGES ON TAKES TO R545 ;
+GRANT ALL PRIVILAGES ON TAKES TO R544 ;
+
+'GRANTALLPRIVILAGESONTAKESTO'||USERNAME||';'
+-----------------------------------------------------------------
+GRANT ALL PRIVILAGES ON TAKES TO R543 ;
+GRANT ALL PRIVILAGES ON TAKES TO R542 ;
+GRANT ALL PRIVILAGES ON TAKES TO R541 ;
+GRANT ALL PRIVILAGES ON TAKES TO R540 ;
+GRANT ALL PRIVILAGES ON TAKES TO R539 ;
+GRANT ALL PRIVILAGES ON TAKES TO R559 ;
+GRANT ALL PRIVILAGES ON TAKES TO R537 ;
+GRANT ALL PRIVILAGES ON TAKES TO R536 ;
+GRANT ALL PRIVILAGES ON TAKES TO R535 ;
+GRANT ALL PRIVILAGES ON TAKES TO R534 ;
+GRANT ALL PRIVILAGES ON TAKES TO R533 ;
+
+'GRANTALLPRIVILAGESONTAKESTO'||USERNAME||';'
+-----------------------------------------------------------------
+GRANT ALL PRIVILAGES ON TAKES TO R532 ;
+GRANT ALL PRIVILAGES ON TAKES TO R531 ;
+GRANT ALL PRIVILAGES ON TAKES TO R530 ;
+GRANT ALL PRIVILAGES ON TAKES TO R529 ;
+GRANT ALL PRIVILAGES ON TAKES TO R528 ;
+GRANT ALL PRIVILAGES ON TAKES TO R527 ;
+GRANT ALL PRIVILAGES ON TAKES TO R526 ;
+GRANT ALL PRIVILAGES ON TAKES TO R525 ;
+GRANT ALL PRIVILAGES ON TAKES TO R524 ;
+GRANT ALL PRIVILAGES ON TAKES TO R523 ;
+GRANT ALL PRIVILAGES ON TAKES TO R522 ;
+
+'GRANTALLPRIVILAGESONTAKESTO'||USERNAME||';'
+-----------------------------------------------------------------
+GRANT ALL PRIVILAGES ON TAKES TO R521 ;
+GRANT ALL PRIVILAGES ON TAKES TO R520 ;
+GRANT ALL PRIVILAGES ON TAKES TO R519 ;
+GRANT ALL PRIVILAGES ON TAKES TO R518 ;
+GRANT ALL PRIVILAGES ON TAKES TO R538 ;
+GRANT ALL PRIVILAGES ON TAKES TO R514 ;
+GRANT ALL PRIVILAGES ON TAKES TO R513 ;
+GRANT ALL PRIVILAGES ON TAKES TO R512 ;
+GRANT ALL PRIVILAGES ON TAKES TO R511 ;
+GRANT ALL PRIVILAGES ON TAKES TO R510 ;
+GRANT ALL PRIVILAGES ON TAKES TO R509 ;
+
+'GRANTALLPRIVILAGESONTAKESTO'||USERNAME||';'
+-----------------------------------------------------------------
+GRANT ALL PRIVILAGES ON TAKES TO R508 ;
+GRANT ALL PRIVILAGES ON TAKES TO R507 ;
+GRANT ALL PRIVILAGES ON TAKES TO R506 ;
+GRANT ALL PRIVILAGES ON TAKES TO R504 ;
+GRANT ALL PRIVILAGES ON TAKES TO R503 ;
+GRANT ALL PRIVILAGES ON TAKES TO R502 ;
+GRANT ALL PRIVILAGES ON TAKES TO R205 ;
+GRANT ALL PRIVILAGES ON TAKES TO R501 ;
+GRANT ALL PRIVILAGES ON TAKES TO ANVER ;
+GRANT ALL PRIVILAGES ON TAKES TO SCOTT ;
+GRANT ALL PRIVILAGES ON TAKES TO OWBSYS_AUDIT ;
+
+'GRANTALLPRIVILAGESONTAKESTO'||USERNAME||';'
+-----------------------------------------------------------------
+GRANT ALL PRIVILAGES ON TAKES TO R517 ;
+GRANT ALL PRIVILAGES ON TAKES TO OWBSYS ;
+GRANT ALL PRIVILAGES ON TAKES TO APEX_030200 ;
+GRANT ALL PRIVILAGES ON TAKES TO APEX_PUBLIC_USER ;
+GRANT ALL PRIVILAGES ON TAKES TO FLOWS_FILES ;
+GRANT ALL PRIVILAGES ON TAKES TO MGMT_VIEW ;
+GRANT ALL PRIVILAGES ON TAKES TO SYSMAN ;
+GRANT ALL PRIVILAGES ON TAKES TO SPATIAL_CSW_ADMIN_USR ;
+GRANT ALL PRIVILAGES ON TAKES TO SPATIAL_WFS_ADMIN_USR ;
+GRANT ALL PRIVILAGES ON TAKES TO MDDATA ;
+GRANT ALL PRIVILAGES ON TAKES TO MDSYS ;
+
+'GRANTALLPRIVILAGESONTAKESTO'||USERNAME||';'
+-----------------------------------------------------------------
+GRANT ALL PRIVILAGES ON TAKES TO SI_INFORMTN_SCHEMA ;
+GRANT ALL PRIVILAGES ON TAKES TO ORDPLUGINS ;
+GRANT ALL PRIVILAGES ON TAKES TO ORDDATA ;
+GRANT ALL PRIVILAGES ON TAKES TO ORDSYS ;
+GRANT ALL PRIVILAGES ON TAKES TO OLAPSYS ;
+GRANT ALL PRIVILAGES ON TAKES TO ANONYMOUS ;
+GRANT ALL PRIVILAGES ON TAKES TO XDB ;
+GRANT ALL PRIVILAGES ON TAKES TO CTXSYS ;
+GRANT ALL PRIVILAGES ON TAKES TO EXFSYS ;
+GRANT ALL PRIVILAGES ON TAKES TO XS$NULL ;
+GRANT ALL PRIVILAGES ON TAKES TO WMSYS ;
+
+'GRANTALLPRIVILAGESONTAKESTO'||USERNAME||';'
+-----------------------------------------------------------------
+GRANT ALL PRIVILAGES ON TAKES TO APPQOSSYS ;
+GRANT ALL PRIVILAGES ON TAKES TO DBSNMP ;
+GRANT ALL PRIVILAGES ON TAKES TO ORACLE_OCM ;
+GRANT ALL PRIVILAGES ON TAKES TO DIP ;
+GRANT ALL PRIVILAGES ON TAKES TO OUTLN ;
+GRANT ALL PRIVILAGES ON TAKES TO SYSTEM ;
+GRANT ALL PRIVILAGES ON TAKES TO SYS ;
+
+194 rows selected.
+
+
+3. Retrieve all permissions that you have given
+
+SQL> SELECT * FROM USER_SYS_PRIVS;
+
+USERNAME                       PRIVILEGE                                ADM
+------------------------------ ---------------------------------------- ---
+R537                           EXECUTE ANY PROGRAM                      YES
+R537                           EXECUTE ANY RULE SET                     YES
+R537                           CREATE ANY TRIGGER                       YES
+R537                           DROP ANY PROCEDURE                       YES
+R537                           CREATE ANY SEQUENCE                      YES
+R537                           CREATE ANY VIEW                          YES
+R537                           CREATE VIEW                              YES
+R537                           DELETE ANY TABLE                         YES
+R537                           BACKUP ANY TABLE                         YES
+R537                           ALTER ANY TABLE                          YES
+R537                           MERGE ANY VIEW                           YES
+
+USERNAME                       PRIVILEGE                                ADM
+------------------------------ ---------------------------------------- ---
+R537                           EXECUTE ANY INDEXTYPE                    YES
+R537                           ALTER ANY INDEXTYPE                      YES
+R537                           CREATE INDEXTYPE                         YES
+R537                           EXECUTE ANY TYPE                         YES
+R537                           ALTER ANY TRIGGER                        YES
+R537                           GRANT ANY ROLE                           YES
+R537                           SELECT ANY TABLE                         YES
+R537                           ALTER SESSION                            YES
+R537                           ALTER ANY RULE                           YES
+R537                           CREATE RULE                              YES
+R537                           ALTER ANY RULE SET                       YES
+
+USERNAME                       PRIVILEGE                                ADM
+------------------------------ ---------------------------------------- ---
+R537                           CREATE PROCEDURE                         YES
+R537                           ALTER ANY SEQUENCE                       YES
+R537                           CREATE ANY INDEX                         YES
+R537                           ALTER TABLESPACE                         YES
+R537                           CREATE ANY RULE                          YES
+R537                           CREATE ANY INDEXTYPE                     YES
+R537                           UNDER ANY TYPE                           YES
+R537                           GRANT ANY PRIVILEGE                      YES
+R537                           DROP ANY TRIGGER                         YES
+R537                           ALTER ANY ROLE                           YES
+R537                           CREATE SEQUENCE                          YES
+
+USERNAME                       PRIVILEGE                                ADM
+------------------------------ ---------------------------------------- ---
+R537                           DROP ANY VIEW                            YES
+R537                           CREATE SESSION                           YES
+R537                           DROP ANY RULE                            YES
+R537                           CREATE RULE SET                          YES
+R537                           FLASHBACK ANY TABLE                      YES
+R537                           EXECUTE ANY PROCEDURE                    YES
+R537                           INSERT ANY TABLE                         YES
+R537                           DROP ANY TYPE                            YES
+R537                           ALTER ANY TYPE                           YES
+R537                           CREATE TABLE                             YES
+R537                           EXECUTE ANY RULE                         YES
+
+USERNAME                       PRIVILEGE                                ADM
+------------------------------ ---------------------------------------- ---
+R537                           DEBUG ANY PROCEDURE                      YES
+R537                           DROP ANY INDEXTYPE                       YES
+R537                           CREATE TYPE                              YES
+R537                           CREATE TRIGGER                           YES
+R537                           DROP ANY ROLE                            YES
+R537                           DROP ANY INDEX                           YES
+R537                           ALTER ANY INDEX                          YES
+R537                           UPDATE ANY TABLE                         YES
+R537                           LOCK ANY TABLE                           YES
+R537                           CREATE ROLLBACK SEGMENT                  YES
+R537                           UNLIMITED TABLESPACE                     YES
+
+USERNAME                       PRIVILEGE                                ADM
+------------------------------ ---------------------------------------- ---
+R537                           CREATE TABLESPACE                        YES
+R537                           DROP ANY RULE SET                        YES
+R537                           CREATE ANY RULE SET                      YES
+R537                           UNDER ANY TABLE                          YES
+R537                           UNDER ANY VIEW                           YES
+R537                           CREATE ANY TYPE                          YES
+R537                           ALTER ANY PROCEDURE                      YES
+R537                           CREATE ANY PROCEDURE                     YES
+R537                           CREATE ROLE                              YES
+R537                           COMMENT ANY TABLE                        YES
+R537                           DROP ANY TABLE                           YES
+
+USERNAME                       PRIVILEGE                                ADM
+------------------------------ ---------------------------------------- ---
+R537                           CREATE ANY TABLE                         YES
+
+67 rows selected.
+
+SQL> SELECT * FROM USER_TAB_PRIVS;
+
+GRANTEE                        OWNER
+------------------------------ ------------------------------
+TABLE_NAME                     GRANTOR
+------------------------------ ------------------------------
+PRIVILEGE                                GRA HIE
+---------------------------------------- --- ---
+R537                           R503
+SUBJECT                        R503
+FLASHBACK                                NO  NO
+
+R537                           R503
+SUBJECT                        R503
+DEBUG                                    NO  NO
+
+GRANTEE                        OWNER
+------------------------------ ------------------------------
+TABLE_NAME                     GRANTOR
+------------------------------ ------------------------------
+PRIVILEGE                                GRA HIE
+---------------------------------------- --- ---
+
+R537                           R503
+SUBJECT                        R503
+QUERY REWRITE                            NO  NO
+
+R537                           R503
+SUBJECT                        R503
+
+GRANTEE                        OWNER
+------------------------------ ------------------------------
+TABLE_NAME                     GRANTOR
+------------------------------ ------------------------------
+PRIVILEGE                                GRA HIE
+---------------------------------------- --- ---
+ON COMMIT REFRESH                        NO  NO
+
+R537                           R503
+SUBJECT                        R503
+REFERENCES                               NO  NO
+
+R537                           R503
+
+GRANTEE                        OWNER
+------------------------------ ------------------------------
+TABLE_NAME                     GRANTOR
+------------------------------ ------------------------------
+PRIVILEGE                                GRA HIE
+---------------------------------------- --- ---
+SUBJECT                        R503
+UPDATE                                   NO  NO
+
+R537                           R503
+SUBJECT                        R503
+SELECT                                   NO  NO
+
+
+GRANTEE                        OWNER
+------------------------------ ------------------------------
+TABLE_NAME                     GRANTOR
+------------------------------ ------------------------------
+PRIVILEGE                                GRA HIE
+---------------------------------------- --- ---
+R537                           R503
+SUBJECT                        R503
+INSERT                                   NO  NO
+
+R537                           R503
+SUBJECT                        R503
+INDEX                                    NO  NO
+
+GRANTEE                        OWNER
+------------------------------ ------------------------------
+TABLE_NAME                     GRANTOR
+------------------------------ ------------------------------
+PRIVILEGE                                GRA HIE
+---------------------------------------- --- ---
+
+R537                           R503
+SUBJECT                        R503
+DELETE                                   NO  NO
+
+R537                           R503
+SUBJECT                        R503
+
+GRANTEE                        OWNER
+------------------------------ ------------------------------
+TABLE_NAME                     GRANTOR
+------------------------------ ------------------------------
+PRIVILEGE                                GRA HIE
+---------------------------------------- --- ---
+ALTER                                    NO  NO
+
+R537                           R503
+TEACHES                        R503
+SELECT                                   NO  NO
+
+R537                           R511
+
+GRANTEE                        OWNER
+------------------------------ ------------------------------
+TABLE_NAME                     GRANTOR
+------------------------------ ------------------------------
+PRIVILEGE                                GRA HIE
+---------------------------------------- --- ---
+SUBJECT                        R511
+FLASHBACK                                NO  NO
+
+R537                           R511
+SUBJECT                        R511
+DEBUG                                    NO  NO
+
+
+GRANTEE                        OWNER
+------------------------------ ------------------------------
+TABLE_NAME                     GRANTOR
+------------------------------ ------------------------------
+PRIVILEGE                                GRA HIE
+---------------------------------------- --- ---
+R537                           R511
+SUBJECT                        R511
+QUERY REWRITE                            NO  NO
+
+R537                           R511
+SUBJECT                        R511
+ON COMMIT REFRESH                        NO  NO
+
+GRANTEE                        OWNER
+------------------------------ ------------------------------
+TABLE_NAME                     GRANTOR
+------------------------------ ------------------------------
+PRIVILEGE                                GRA HIE
+---------------------------------------- --- ---
+
+R537                           R511
+SUBJECT                        R511
+REFERENCES                               NO  NO
+
+R537                           R511
+SUBJECT                        R511
+
+GRANTEE                        OWNER
+------------------------------ ------------------------------
+TABLE_NAME                     GRANTOR
+------------------------------ ------------------------------
+PRIVILEGE                                GRA HIE
+---------------------------------------- --- ---
+UPDATE                                   NO  NO
+
+R537                           R511
+SUBJECT                        R511
+SELECT                                   NO  NO
+
+R537                           R511
+
+GRANTEE                        OWNER
+------------------------------ ------------------------------
+TABLE_NAME                     GRANTOR
+------------------------------ ------------------------------
+PRIVILEGE                                GRA HIE
+---------------------------------------- --- ---
+SUBJECT                        R511
+INSERT                                   NO  NO
+
+R537                           R511
+SUBJECT                        R511
+INDEX                                    NO  NO
+
+
+GRANTEE                        OWNER
+------------------------------ ------------------------------
+TABLE_NAME                     GRANTOR
+------------------------------ ------------------------------
+PRIVILEGE                                GRA HIE
+---------------------------------------- --- ---
+R537                           R511
+SUBJECT                        R511
+DELETE                                   NO  NO
+
+R537                           R511
+SUBJECT                        R511
+ALTER                                    NO  NO
+
+GRANTEE                        OWNER
+------------------------------ ------------------------------
+TABLE_NAME                     GRANTOR
+------------------------------ ------------------------------
+PRIVILEGE                                GRA HIE
+---------------------------------------- --- ---
+
+R537                           R511
+TEACHES                        R511
+SELECT                                   NO  NO
+
+R537                           R529
+STUDENT                        R529
+
+GRANTEE                        OWNER
+------------------------------ ------------------------------
+TABLE_NAME                     GRANTOR
+------------------------------ ------------------------------
+PRIVILEGE                                GRA HIE
+---------------------------------------- --- ---
+FLASHBACK                                NO  NO
+
+R537                           R529
+STUDENT                        R529
+DEBUG                                    NO  NO
+
+R537                           R529
+
+GRANTEE                        OWNER
+------------------------------ ------------------------------
+TABLE_NAME                     GRANTOR
+------------------------------ ------------------------------
+PRIVILEGE                                GRA HIE
+---------------------------------------- --- ---
+STUDENT                        R529
+QUERY REWRITE                            NO  NO
+
+R537                           R529
+STUDENT                        R529
+ON COMMIT REFRESH                        NO  NO
+
+
+GRANTEE                        OWNER
+------------------------------ ------------------------------
+TABLE_NAME                     GRANTOR
+------------------------------ ------------------------------
+PRIVILEGE                                GRA HIE
+---------------------------------------- --- ---
+R537                           R529
+STUDENT                        R529
+REFERENCES                               NO  NO
+
+R537                           R529
+STUDENT                        R529
+UPDATE                                   NO  NO
+
+GRANTEE                        OWNER
+------------------------------ ------------------------------
+TABLE_NAME                     GRANTOR
+------------------------------ ------------------------------
+PRIVILEGE                                GRA HIE
+---------------------------------------- --- ---
+
+R537                           R529
+STUDENT                        R529
+SELECT                                   NO  NO
+
+R537                           R529
+STUDENT                        R529
+
+GRANTEE                        OWNER
+------------------------------ ------------------------------
+TABLE_NAME                     GRANTOR
+------------------------------ ------------------------------
+PRIVILEGE                                GRA HIE
+---------------------------------------- --- ---
+INSERT                                   NO  NO
+
+R537                           R529
+STUDENT                        R529
+INDEX                                    NO  NO
+
+R537                           R529
+
+GRANTEE                        OWNER
+------------------------------ ------------------------------
+TABLE_NAME                     GRANTOR
+------------------------------ ------------------------------
+PRIVILEGE                                GRA HIE
+---------------------------------------- --- ---
+STUDENT                        R529
+DELETE                                   NO  NO
+
+R537                           R529
+STUDENT                        R529
+ALTER                                    NO  NO
+
+
+GRANTEE                        OWNER
+------------------------------ ------------------------------
+TABLE_NAME                     GRANTOR
+------------------------------ ------------------------------
+PRIVILEGE                                GRA HIE
+---------------------------------------- --- ---
+R537                           R529
+TEACHES                        R529
+SELECT                                   NO  NO
+
+
+36 rows selected.
+
+SQL> SELECT * FROM USER_ROLE_PRIVS;
+
+USERNAME                       GRANTED_ROLE                   ADM DEF OS_
+------------------------------ ------------------------------ --- --- ---
+R537                           CONNECT                        NO  YES NO
+R537                           RESOURCE                       NO  YES NO
+
+
