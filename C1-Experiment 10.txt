@@ -79,11 +79,9 @@ BIO-301  Crick                          1
 
 5. For each department that has more than 2 instructors, retrieve the DEPT_NAME and the number of instructors who are making more than $80000
 
-SQL> select DEPT_NAME, COUNT(*) FROM instructor natural join department WHERE SALARY > 80000 GROUP BY DEPT_NAME HAVING COUNT(*) >= 2;
+SQL>  select DEPT_NAME, COUNT(*) FROM instructor where DEPT_NAME in (select DEPT_NAME from instructor group by DEPT_NAME having count(*)>2) and salary>80000 group by DEPT_NAME;
 
 DEPT_NAME    COUNT(*)
 ---------- ----------
-Physics             2
 Comp. Sci.          2
-
 
